@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-weight: bold;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Pacifico", cursive;
+}
+
+.container {
+    width: 250px;
+    height: 35%;
+    border: 2px solid black;
+    text-align: center;
+    box-shadow: 0px 0px 15px 3px #000000;
+}
+
+.month {
+    background-color: coral;
+    color: white;
+    padding: 0px 20px 10px;
+    height: 20%;
+    font-size: 20px;
+    align-content: center;
+}
+.week-day {
+    color: lightgray;
+    padding: 20px 20px 10px;
+    height: 10%;
+}
+
+.day {
+    height: 40%;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+.year {
+    height: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgrey;
+}
